@@ -5,3 +5,41 @@ h1, h2, h3, p {
 img {
     max-width: 20%;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #E34D9A;
+    color: white;
+  }
+
+  
+.text-centered {
+    text-align:center;
+    color: #E34D9A;
+  }
+
+  
+@media screen and (max-width: 750px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}

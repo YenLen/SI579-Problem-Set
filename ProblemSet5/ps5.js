@@ -89,6 +89,7 @@ function getDatamuseRhymeUrl(rel_rhy) {
     return `https://api.datamuse.com/words?${(new URLSearchParams({'rel_rhy': wordInput.value})).toString()}`;
 }
 
+
 /**
  * Gets a URL to fetch 'similar to' from Datamuse.
  *
